@@ -1,7 +1,6 @@
 {
   "name": "chini-luglio-mondiali",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +14,11 @@
   "bugs": {
     "url": "https://github.com/Booker1996/Chini-luglio-mondiali/issues"
   },
-  "homepage": "https://github.com/Booker1996/Chini-luglio-mondiali#readme"
+  "homepage": "https://github.com/Booker1996/Chini-luglio-mondiali#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "uuid-v4": "^0.1.0"
+  },
+  "devDependencies": {},
+  "description": ""
 }
