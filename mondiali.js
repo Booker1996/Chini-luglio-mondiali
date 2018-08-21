@@ -1,3 +1,10 @@
+const express = require('express'),
+    bodyParser = require('body-parser');
+const mondiali = express.Router()
+
+var uuid = require('uuid-v4');
+
+
 var matches = [];
 matches[0]={
     opponent: 'Croazia',
@@ -29,6 +36,7 @@ teams[1] = {
     is_still_in: false,
     matches: [matches[1],matches[3]]
 };
+//console.log(teams[0]);
+//console.log(teams[1]);
 
-console.log(teams[0]);
-console.log(teams[1]);
+module.exports = mondiali
