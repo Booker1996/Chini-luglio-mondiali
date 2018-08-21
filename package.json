@@ -1,0 +1,19 @@
+{
+  "name": "chini-luglio-mondiali",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Booker1996/Chini-luglio-mondiali.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Booker1996/Chini-luglio-mondiali/issues"
+  },
+  "homepage": "https://github.com/Booker1996/Chini-luglio-mondiali#readme"
+}
