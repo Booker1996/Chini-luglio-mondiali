@@ -1,8 +1,18 @@
 const express = require('express'),
     bodyParser = require('body-parser');
-const mondiali = express.Router()
+const mondiali = express.Router();
 
 var uuid = require('uuid-v4');
+
+mondiali.get('/matches', function (req, res) {
+    res.json(matches)
+
+});
+
+mondiali.get('/teams', function (req, res) {
+    res.json(teams)
+
+});
 
 
 var matches = [];
